@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hanhardt Creative — Media & Content Agentur</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo" style="text-decoration:none;">
+    <svg width="175" height="40" viewBox="0 0 175 40" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="22" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="20" letter-spacing="2.5" fill="#ffffff">HANHARDT<tspan fill="#c8a96e">.</tspan></text>
+      <text x="1" y="36" font-family="Arial,sans-serif" font-weight="300" font-size="9" letter-spacing="6.5" fill="#c8a96e">CREATIVE</text>
+    </svg>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#ueber">Über uns</a></li>
+    <li><a href="#leistungen">Leistungen</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#moritz">Gründer</a></li>
+    <li><a href="#karriere">Karriere</a></li>
+  </ul>
+  <a href="#kontakt" class="nav-cta nav-cta-desktop">Kontakt</a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<!-- Mobile Menu -->
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#ueber" onclick="closeMobileMenu()">Über uns</a>
+  <a href="#leistungen" onclick="closeMobileMenu()">Leistungen</a>
+  <a href="#events" onclick="closeMobileMenu()">Events</a>
+  <a href="#moritz" onclick="closeMobileMenu()">Gründer</a>
+  <a href="#karriere" onclick="closeMobileMenu()">Karriere</a>
+  <a href="#kontakt" onclick="closeMobileMenu()" style="color:var(--gold);border:1px solid var(--gold);padding:14px 36px;margin-top:12px;">Kontakt</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg">
+    <img src="assets/img_01.png" alt="Hanhardt Creative">
+  </div>
+  <div class="hero-vignette"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-services">
+        <span class="hero-service">Social Media</span>
+        <span class="hero-service">Web & Mediendesign</span>
+        <span class="hero-service">Coaching</span>
+      </div>
+      <h1 class="hero-title">Wir schaffen<br><em>Inhalte,</em><br>die wirken.</h1>
+      <p class="hero-sub">International tätige Media- und Content-Agentur — für Unternehmer, Influencer und Creators, die nachhaltig wachsen wollen.</p>
+      <div class="hero-actions">
+        <a href="#leistungen" class="btn-primary">Leistungen entdecken</a>
+        <a href="#kontakt" class="btn-ghost">Anfragen →</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="hero-stat-num">500M+</div><div class="hero-stat-label">Aufrufe & Reichweite</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">50+</div><div class="hero-stat-label">Kunden betreut</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">4</div><div class="hero-stat-label">Länder</div></div>
+    </div>
+  </div>
+  <div class="scroll-line-wrap">
+    <div class="scroll-text">Scroll</div>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <div class="marquee-item">Social Media</div><div class="marquee-item">Web & Mediendesign</div><div class="marquee-item">Coaching</div><div class="marquee-item">Videoproduktion</div><div class="marquee-item">YouTube Betreuung</div><div class="marquee-item">Website Erstellung</div><div class="marquee-item">Event Organisation</div><div class="marquee-item">Personal Branding</div>
+    <div class="marquee-item">Social Media</div><div class="marquee-item">Web & Mediendesign</div><div class="marquee-item">Coaching</div><div class="marquee-item">Videoproduktion</div><div class="marquee-item">YouTube Betreuung</div><div class="marquee-item">Website Erstellung</div><div class="marquee-item">Event Organisation</div><div class="marquee-item">Personal Branding</div>
+  </div>
+</div>
+
+<!-- ÜBER UNS -->
+<section id="ueber">
+  <div class="ueber-layout">
+    <div class="ueber-text fade-in">
+      <div class="section-label">Über uns</div>
+      <h2 class="section-title">Media & Content<br><em>auf höchstem Niveau.</em></h2>
+      <div class="gold-line"></div>
+      <p>Wir sind eine international tätige Media- und Content-Agentur mit Fokus auf Social Media, Videoproduktion und Markenentwicklung. Seit unserer Gründung unterstützen wir Unternehmer, Influencer und Creators dabei, ihre digitale Präsenz strategisch aufzubauen und nachhaltig zu skalieren.</p>
+      <p>Zu unseren Kunden zählen reichweitenstarke Persönlichkeiten aus dem Bereich Persönlichkeitsentwicklung sowie erfolgreiche YouTuber, die wir von der Konzeption bis zur finalen Umsetzung ihrer Inhalte begleiten.</p>
+      <p>Mit einem klaren Anspruch an Qualität, Ästhetik und Performance schaffen wir Lösungen, die nicht nur sichtbar sind, sondern wirken.</p>
+      <div class="ueber-highlights">
+        <div class="highlight-card"><h4>500M+</h4><p>Aufrufe & Reichweite</p></div>
+        <div class="highlight-card"><h4>50+</h4><p>Kunden betreut</p></div>
+        <div class="highlight-card"><h4>300+</h4><p>Event-Tickets</p></div>
+        <div class="highlight-card"><h4>4</h4><p>Länder</p></div>
+      </div>
+    </div>
+    <div class="ueber-images fade-in fade-in-delay-2">
+      <img class="ueber-img-main" src="assets/img_02.jpg" alt="Videoproduktion">
+      <img class="ueber-img-accent" src="assets/img_03.jpg" alt="Hanhardt Creative">
+    </div>
+  </div>
+</section>
+
+<!-- LEISTUNGEN -->
+<section id="leistungen">
+  <div class="fade-in" style="max-width:600px;">
+    <div class="section-label">Leistungen</div>
+    <h2 class="section-title">Was wir für<br><em>Sie tun.</em></h2>
+  </div>
+  <div class="leistungen-grid">
+    <div class="leistung-card fade-in">
+      <img class="leistung-img" src="assets/img_04.jpg" alt="Social Media">
+      <div class="leistung-body">
+        <h3>Social Media Betreuung</h3>
+        <div class="leistung-divider"></div>
+        <p>Vollständige Betreuung deiner Kanäle — Strategie, Content, Video und Mediendesign aus einer Hand. Wir übernehmen alles.</p>
+        <div class="leistung-tags" style="margin-top:24px;"><span class="tag">Instagram</span><span class="tag">TikTok</span><span class="tag">Video</span><span class="tag">Design</span></div>
+      </div>
+    </div>
+    <div class="leistung-card fade-in">
+      <img class="leistung-img" src="assets/img_05.jpg" alt="Content Strategie">
+      <div class="leistung-body">
+        <h3>Content-Strategie</h3>
+        <div class="leistung-divider"></div>
+        <p>Maßgeschneiderte Strategien, die deine Marke langfristig aufbauen, positionieren und nachhaltig skalieren.</p>
+        <div class="leistung-tags" style="margin-top:24px;"><span class="tag">Planning</span><span class="tag">Branding</span><span class="tag">Growth</span></div>
+      </div>
+    </div>
+    <div class="leistung-card fade-in">
+      <img class="leistung-img" src="assets/img_06.jpg" alt="Website">
+      <div class="leistung-body">
+        <h3>Website-Erstellung</h3>
+        <div class="leistung-divider"></div>
+        <p>Moderne, performante Websites und Landingpages, die konvertieren und deine Marke nachhaltig stärken.</p>
+        <div class="leistung-tags" style="margin-top:24px;"><span class="tag">Web Design</span><span class="tag">Development</span><span class="tag">SEO</span></div>
+      </div>
+    </div>
+    <div class="leistung-card fade-in">
+      <img class="leistung-img" src="assets/img_07.jpg" alt="Events">
+      <div class="leistung-body">
+        <h3>Eventkonzepte &amp; Organisation</h3>
+        <div class="leistung-divider"></div>
+        <p>Von der Idee bis zum unvergesslichen Erlebnis — Premium-Events für Creator, Brands und Unternehmen.</p>
+        <div class="leistung-tags" style="margin-top:24px;"><span class="tag">Live Events</span><span class="tag">Influencer</span><span class="tag">Experience</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section id="events">
+  <div class="section-label fade-in">Events & Projekte</div>
+  <h2 class="section-title fade-in fade-in-delay-1">Erfahrung, die<br><em>begeistert.</em></h2>
+  <div class="events-grid">
+    <div class="event-card fade-in">
+      <img src="assets/img_08.jpg" alt="Influencer Event">
+      <div class="event-card-overlay">
+        <span class="event-badge">150+ Influencer · Creator Event</span>
+        <h3>Influencer House Event</h3>
+        <p>Ein exklusives Networking-Event für über 150 Creator und Influencer — Begegnungen, die Marken und Menschen verbinden.</p>
+      </div>
+    </div>
+    <div class="event-card fade-in fade-in-delay-1">
+      <img src="assets/img_09.png" alt="Friday House Party">
+      <div class="event-card-overlay">
+        <span class="event-badge">Ausverkauft · 300+ Tickets</span>
+        <h3>Friday House Party</h3>
+        <p>House-Music-Event auf den Kölner Ringen — restlos ausverkauft mit über 300 Gästen. Live DJ, Free Sekt & Networking.</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- MORITZ — Hintergrundbild ist sein Portrait -->
+<section id="moritz">
+  <div class="moritz-bg"><img src="assets/img_10.jpg" alt="Moritz Hanhardt"></div>
+  <div class="moritz-vignette"></div>
+  <div class="moritz-inner">
+    <div class="moritz-img-col fade-in">
+      <img src="assets/img_11.jpg" alt="Moritz Hanhardt">
+    </div>
+    <div class="moritz-content fade-in fade-in-delay-2">
+      <div class="section-label">Der Gründer</div>
+      <h2 class="moritz-name">Moritz<br>Hanhardt</h2>
+      <div class="moritz-title-sub">CEO &amp; Creative Director</div>
+      <p class="moritz-desc">Moritz Hanhardt ist Geschäftsführer und kreativer Kopf hinter dem Unternehmen. Neben seiner unternehmerischen Tätigkeit ist er auch persönlich in der Medien- und Eventbranche aktiv — als Moderator auf Events sowie im Bereich Model- und Schauspielarbeit.</p>
+      <p class="moritz-desc">Er war bereits in verschiedenen TV-Formaten zu sehen, unter anderem bei ProSieben-Produktionen wie „Galileo", und arbeitete mit zahlreichen bekannten Unternehmen und Marken zusammen.</p>
+      <p class="moritz-desc">Mit seinem Gespür für Trends, Ästhetik und Wirkung verbindet er strategisches Denken mit kreativer Umsetzung – sowohl innerhalb des Unternehmens als auch in seinen persönlichen Projekten.</p>
+      
+      <div class="moritz-press">
+        <strong>Presse:</strong> Über Moritz und seinen Werdegang wurde in der Frankfurter Neuen Presse berichtet.
+        <br><br>📰 <a href="https://www.fnp.de/frankfurt/moritz-hanhardt-baut-social-media-agentur-nach-schwieriger-schulzeit-auf-94008658.html" target="_blank" rel="noopener">Zeitungsartikel lesen →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KARRIERE -->
+<section id="karriere">
+  <div class="karriere-layout">
+    <div class="fade-in">
+      <div class="section-label">Karriere</div>
+      <h2 class="section-title">Werde Teil des<br><em>Teams.</em></h2>
+      <div class="gold-line"></div>
+      <div class="karriere-intro">
+        <p>Werde Teil unserer Agentur und gestalte kreative Projekte in den Bereichen Events, Social Media und Personal Branding.</p>
+      </div>
+      <div class="stellen-list">
+        <div class="stelle-card">
+          <div class="stelle-title">Praktikant / Werkstudent (m/w/d)</div>
+          <div class="stelle-sub">Shootings für Models & Content</div>
+          <div class="stelle-desc">Du unterstützt bei der Planung und Durchführung von Foto- und Videoaufnahmen für Brands, Influencer und Events.</div>
+        </div>
+        <div class="stelle-card">
+          <div class="stelle-title">Grafikdesigner (m/w/d)</div>
+          <div class="stelle-sub">Design & Branding</div>
+          <div class="stelle-desc">Du entwickelst visuelle Konzepte, erstellst Social Media Grafiken und unterstützt beim Aufbau von Markenidentitäten.</div>
+        </div>
+      </div>
+    </div>
+    <div class="karriere-benefits fade-in fade-in-delay-2" style="margin-top:0;padding-top:0;">
+      <div class="section-label">Benefits</div>
+      <h2 class="section-title">Was wir<br><em>bieten.</em></h2>
+      <div class="gold-line"></div>
+      <div class="benefit-grid">
+        <div class="benefit-item"><div class="benefit-num">01</div><h4>Flexible Arbeitszeiten</h4><p>Arbeite dann, wenn du am produktivsten bist.</p></div>
+        <div class="benefit-item"><div class="benefit-num">02</div><h4>Remote Work</h4><p>Von zuhause oder aus dem Ausland — auch von Urlaubsorten.</p></div>
+        <div class="benefit-item"><div class="benefit-num">03</div><h4>Echte Projekte</h4><p>Events, Shootings, Social Media Kampagnen von Tag 1.</p></div>
+        <div class="benefit-item"><div class="benefit-num">04</div><h4>Medieneinblick</h4><p>Direkter Einblick in die Medien-, Event- und Influencerbranche.</p></div>
+        <div class="benefit-item"><div class="benefit-num">05</div><h4>Eigene Ideen</h4><p>Kreatives Umfeld mit Freiraum für eigene Projekte.</p></div>
+        <div class="benefit-item"><div class="benefit-num">06</div><h4>Flache Hierarchien</h4><p>Arbeit mit spannenden Persönlichkeiten & Marken.</p></div>
+      </div>
+      <a href="/cdn-cgi/l/email-protection#a0c8c1cec8c1d2c4d48ec3d2c5c1d4c9d6c5e0d7c5c28ec4c5" class="karriere-cta">Jetzt bewerben</a>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="kontakt">
+  <div class="kontakt-info fade-in">
+    <div class="section-label">Kontakt</div>
+    <h2 class="section-title">Bereit für etwas<br><em>Großes?</em></h2>
+    <div class="gold-line"></div>
+    <p>Ob strategische Partnerschaft, einzelnes Projekt oder kreative Zusammenarbeit — sprechen Sie uns an.</p>
+    <ul class="kontakt-details">
+      <li><strong>Standorte</strong> Köln · Wien · Zürich · Zypern</li>
+      <li><strong>E-Mail</strong> <a href="/cdn-cgi/l/email-protection#7a121b14121b081e0e5419081f1b0e130c1f3a0d1f18541e1f"><span class="__cf_email__" data-cfemail="88e0e9e6e0e9faecfca6ebfaede9fce1feedc8ffedeaa6eced">[email&#160;protected]</span></a></li>
+      <li><strong>WhatsApp</strong> <a href="https://wa.me/4917626683778" target="_blank">+49 176 26683778</a></li>
+      <li><strong>Social Media</strong> Instagram · LinkedIn · YouTube</li>
+    </ul>
+  </div>
+  <div class="kontakt-form fade-in fade-in-delay-2">
+    <div class="form-group"><label>Ihr Name</label><input type="text" placeholder="Max Mustermann"></div>
+    <div class="form-group"><label>E-Mail-Adresse</label><input type="email" placeholder="hanhardt.creative@web.de"></div>
+    <div class="form-group"><label>Ihr Anliegen</label><textarea placeholder="Erzählen Sie uns von Ihrem Projekt..."></textarea></div>
+    <button type="button" class="btn-primary" style="width:100%;margin-top:8px;cursor:pointer;border:none;">Nachricht senden →</button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">
+    <svg width="155" height="36" viewBox="0 0 155 36" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="20" font-family="Arial Black,Arial,sans-serif" font-weight="900" font-size="18" letter-spacing="2" fill="#ffffff">HANHARDT<tspan fill="#c8a96e">.</tspan></text>
+      <text x="1" y="33" font-family="Arial,sans-serif" font-weight="300" font-size="8.5" letter-spacing="6" fill="#c8a96e">CREATIVE</text>
+    </svg>
+  </div>
+  <div class="footer-copy">© 2025 Hanhardt Creative. Alle Rechte vorbehalten.</div>
+  <div class="footer-social">
+    <a href="#" target="_blank">Instagram</a>
+    <a href="#" target="_blank">TikTok</a>
+    <a href="#" target="_blank">YouTube</a>
+    <a href="https://wa.me/4917626683778" target="_blank">WhatsApp</a>
+  </div>
+  <div class="footer-links">
+    <a href="#" onclick="document.getElementById('modal-impressum').classList.add('open');return false;">Impressum</a>
+    <a href="#" onclick="document.getElementById('modal-datenschutz').classList.add('open');return false;">Datenschutz</a>
+    <a href="https://wa.me/4917626683778" target="_blank" class="footer-wa">💬 WhatsApp</a>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT BUTTON -->
+<a href="https://wa.me/4917626683778" target="_blank" class="wa-float" title="WhatsApp">💬</a>
+
+<!-- IMPRESSUM MODAL -->
+<div class="modal-overlay" id="modal-impressum">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modal-impressum').classList.remove('open')">✕</button>
+    <h2>Impressum</h2>
+    <span class="modal-sub">Angaben gemäß § 5 TMG</span>
+    <h4>Unternehmensangaben</h4>
+    <p>Hanhardt Creative<br>Moritz Hanhardt<br>Köln, Deutschland</p>
+    <h4>Kontakt</h4>
+    <p>E-Mail: <a href="/cdn-cgi/l/email-protection#9bf3faf5f3fae9ffefb5f8e9fefaeff2edfedbecfef9b5fffe"><span class="__cf_email__" data-cfemail="6c040d02040d1e0818420f1e090d18051a092c1b090e420809">[email&#160;protected]</span></a></p>
+    <h4>Haftungsausschluss</h4>
+    <p>Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.</p>
+    <h4>Urheberrecht</h4>
+    <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+    <p style="margin-top:24px;font-size:12px;color:var(--gray);">Bitte ergänze diese Angaben mit deiner vollständigen Adresse, Steuernummer und ggf. weiteren Pflichtangaben.</p>
+  </div>
+</div>
+
+<!-- DATENSCHUTZ MODAL -->
+<div class="modal-overlay" id="modal-datenschutz">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modal-datenschutz').classList.remove('open')">✕</button>
+    <h2>Datenschutz</h2>
+    <span class="modal-sub">Datenschutzerklärung</span>
+    <h4>Verantwortlicher</h4>
+    <p>Hanhardt Creative, Moritz Hanhardt, Köln — <a href="/cdn-cgi/l/email-protection#91f9f0fff9f0e3f5e5bff2e3f4f0e5f8e7f4d1e6f4f3bff5f4"><span class="__cf_email__" data-cfemail="7a121b14121b081e0e5419081f1b0e130c1f3a0d1f18541e1f">[email&#160;protected]</span></a></p>
+    <h4>Datenerhebung auf dieser Website</h4>
+    <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Kontaktdaten findest du im Impressum.</p>
+    <h4>Kontaktformular</h4>
+    <p>Wenn du uns per Kontaktformular Anfragen zukommen lässt, werden deine Angaben aus dem Formular zwecks Bearbeitung der Anfrage bei uns gespeichert. Diese Daten geben wir nicht ohne deine Einwilligung weiter.</p>
+    <h4>WhatsApp</h4>
+    <p>Wenn du uns über WhatsApp kontaktierst, verarbeitest du deine Daten über den Dienst von Meta Platforms Ireland Ltd. Bitte beachte die Datenschutzhinweise von WhatsApp.</p>
+    <h4>Ihre Rechte</h4>
+    <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Datenübertragbarkeit. Wende dich dafür an: <a href="/cdn-cgi/l/email-protection#5b333a35333a293f2f7538293e3a2f322d3e1b2c3e39753f3e"><span class="__cf_email__" data-cfemail="c3aba2adaba2b1a7b7eda0b1a6a2b7aab5a683b4a6a1eda7a6">[email&#160;protected]</span></a></p>
+    <p style="margin-top:24px;font-size:12px;color:var(--gray);">Diese Datenschutzerklärung ist ein Entwurf. Bitte lass sie von einem Rechtsanwalt prüfen und vervollständigen.</p>
+  </div>
+  </div>
+</div>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/4917626683778" class="wa-float" target="_blank">💬</a>
+
+
+<script src="script.js"></script>
+</body>
+</html>
